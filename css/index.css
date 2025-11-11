@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+.navBar {
+  text-align: center;
+}
+
+html {
+  background: #D7EBFB fixed;
+  background: radial-gradient(at center, #D7EBFB, #65A3D9);
+  background-size: 100vw 100vh;
+  
+}
+
+.navBar {
+  text-align: center;
+}
+
+.navBar a {
+  font-family: 'Lucida Console';
+  font-size: 23px;
+  color: #333;
+  text-decoration: none;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px dashed white;
+  border-radius: 12px;
+  padding: 30px 60px;
+  margin: 12px;
+
+  display: inline-block;
+  justify-content: center;
+  transition: 0.3s ease, 0.3s ease;
+}
+
+.navBar a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #AD6FA7;
+}
+
+h1 {
+  font-style: oblique;
+  color: #1b4b72;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 60px;
+}
+
+.me img {
+  position: absolute;
+  left: 40%;
+  right: 0%;
+  width: 420px;
+}
+
+blockquote {
+  font-size: x-large;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #5569804d;
+  color: white;
+  text-align: center;
+}
+
+
+
+@media (max-aspect-ratio: 1/1) {
+
+  h1 {
+    font-size: 90px;
+    margin-top: 350px;
+  }
+
+  .link-image {
+
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .me img {
+    position: absolute;
+    left: 20%;
+    right: 0%;
+    bottom: 40%;
+    width: 550px;
+  }
+
+.navBar a {
+  font-size: 40px;
+}
+
+blockquote{
+  font-size: 40px;
+
+}
+}

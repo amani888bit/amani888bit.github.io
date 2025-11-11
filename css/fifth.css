@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+html {
+  background: #D7EBFB;
+  background: radial-gradient(at center, #d7fbe5, #5e9675);
+  background-size: 100vw 100vh;
+  padding-bottom: 5%;
+}
+
+.navBar {
+  text-align: center;
+}
+
+.navBar a {
+  font-family: 'Lucida Console';
+  font-size: 23px;
+  color: #333;
+  text-decoration: none;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px dashed white;
+  border-radius: 12px;
+  padding: 30px 60px;
+  margin: 12px;
+
+  display: inline-block;
+  justify-content: center;
+  transition: 0.3s ease, 0.3s ease;
+}
+
+.navBar a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #AD6FA7;
+}
+
+h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+ol {
+  color: #083013;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.qna p {
+  color: #206132;
+  font-size: 30px;
+}
+
+.aside p{
+  font-size:20px;
+   color: #206132;
+   font-weight: bold;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 20px;
+  border: 3px solid #083013;
+}
+
+figcaption {
+  text-align: center;
+  font-size: large;
+  color: #083013;
+  margin-bottom: 20px;
+}
+
+figure:hover img {
+  transform: scale(1.1);
+  transition: 0.3s ease, 0.3s ease;
+}
+
+
+footer {
+  background-color: #1c5e387a;
+  color: #d7fbe5;
+  position: absolute;
+  bottom: 0%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+}
+
+
+
+@media (max-aspect-ratio: 1/1){
+    .link-image {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .navBar a {
+  font-size: 40px;
+}
+
+
+.qna p {
+  font-size: x-large;
+}
+
+}
